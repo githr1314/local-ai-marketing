@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const antd = require\\(''./node_modules/antd''\\); console.log\\(''antd version:'', antd.version\\); console.log\\(''App exists:'', !!antd.App\\); console.log\\(''App keys:'', Object.keys\\(antd.App || {}\\).slice\\(0, 10\\)\\)\")",
+      "Bash(dir \"d:\\\\ifly\\\\local-ai-marketing\\\\frontend\\\\node_modules\\\\antd\")",
+      "Bash(cmd /c \"dir d:\\\\ifly\\\\local-ai-marketing\\\\frontend\\\\node_modules\\\\antd\")",
+      "Bash(cmd /c \"dir /a d:\\\\ifly\\\\local-ai-marketing\\\\frontend\\\\node_modules\")",
+      "Bash(npx tsc --noEmit -p tsconfig.app.json)",
+      "Bash(pnpm install)",
+      "Bash(node_modules/.bin/tsc --noEmit -p tsconfig.app.json)",
+      "Bash(node_modules/.bin/vite build)"
+    ]
+  }
+}
